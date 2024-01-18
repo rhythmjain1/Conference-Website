@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+   
+    background-repeat: no-repeat;
+    height: 100%;
+    background:url("./components/img4.png");
+    background-size: cover;
+
+}
+
+.titleimgb{
+    width:initial;
+ 
+ }
+.titletext{
+   padding:30px;
+   word-break: break-all;
+
+}
+
+.zindex{
+   z-index: 100;
+}
+
+.box{
+   
+    flex-direction: row;
+    justify-content: start;
+    font-weight: bolder;
+    height: 100%;
+    align-items: center;
+    padding:60px;
+    z-index: -10;
+}
+
+.btnbox{
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+}
+#left{
+    background:rgba(0, 0, 0, 0.453);
+    padding:20px;
+    backdrop-filter: blur(5px);
+}
+
+
+@media (max-width:700px){
+    body{
+        background: url("./components/img0.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .box{
+        margin-top: 40%;
+       padding:10px;
+    }
+    .titletext{
+        padding:3px;
+    }
+   }
+
+@media (max-width:1000px){
+    body{
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .flex-wrap{
+        flex-direction: column-reverse;
+        align-items: center;
+        
+    }
+    .titletext{
+        font-size: x-large;
+    }
+    .hide{
+        display:none;
+    }
+    .heroimg{
+        
+    }
+    .titleimg{
+        width: 40%;
+    }
+}
+
+
+/* 
+.btn-pink {
+    @apply bg-red-600; 
+    @apply inline-block; 
+    @apply text-white;
+    @apply py-2 px-6; 
+    @apply shadow-md;
+    @apply text-base; 
+    @apply cursor-pointer;
+    @apply transition-all duration-500;
+    @apply font-semibold;
+    @apply border-2 border-transparent;
+    @apply relative;
+    @apply z-10;
+}
+
+.btn-pink::before {
+    @apply absolute;
+    @apply bg-white;
+    @apply top-0 left-0 right-0 bottom-0;
+    @apply z-0;
+    @apply transform scale-x-0;
+    @apply origin-left;
+    @apply transition-all duration-1000;
+}
+
+.btn-pink:hover::before {
+    @apply transform scale-x-100;
+}
+
+.btn-pink:hover {
+    @apply border-2 border-red-100;
+    @apply text-black;
+}
+
+.btn-project:hover {
+    @apply border-none; 
+} */
+
