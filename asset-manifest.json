@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Conference-Website/static/css/main.3b8afe70.css",
+    "main.js": "/Conference-Website/static/js/main.6e30e7a5.js",
+    "static/media/img4.png": "/Conference-Website/static/media/img4.4a865158bf14a6c6dc2b.png",
+    "static/media/s2.png": "/Conference-Website/static/media/s2.075d14463695b11b0801.png",
+    "static/media/img0.jpg": "/Conference-Website/static/media/img0.e800059be79af2c8b353.jpg",
+    "static/media/img1.jpeg": "/Conference-Website/static/media/img1.821dad3fdb2808b9dc82.jpeg",
+    "index.html": "/Conference-Website/index.html",
+    "main.3b8afe70.css.map": "/Conference-Website/static/css/main.3b8afe70.css.map",
+    "main.6e30e7a5.js.map": "/Conference-Website/static/js/main.6e30e7a5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b8afe70.css",
+    "static/js/main.6e30e7a5.js"
+  ]
+}
